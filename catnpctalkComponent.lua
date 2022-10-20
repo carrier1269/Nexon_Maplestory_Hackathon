@@ -42,7 +42,7 @@ string tableName = ""catnpctalk""
 --@ MethodExecSpace=All
 void ShowNextText()
 {
-
+self.count = self.count + 1
 local isNameEnable = false
 local isPortraitEnable = false
 
@@ -78,8 +78,6 @@ end
 self.uiNameEntity.Enable = isNameEnable
 self.uiPortraitEntity.Enable = isPortraitEnable
 
-self.count = self.count + 1
-
 
 }
 --@ EndMethod
@@ -88,7 +86,7 @@ self.count = self.count + 1
 --@ MethodExecSpace=ClientOnly
 void OnBeginPlay()
 {
-self.count = 1
+self.count = 0
 self.npcTalkData = _DataService:GetTable("catnpctalk")
 self.uiNameEntity = _EntityService:GetEntityByPath("/ui/UIGroup/TalkPanel/Name")
 self.uiMessageEntity = _EntityService:GetEntityByPath("/ui/UIGroup/TalkPanel/Text")
@@ -109,14 +107,6 @@ end
 }
 --@ EndMethod
 
---@ BeginMethod
---@ MethodExecSpace=ClientOnly
-void OnMapEnter(any enteredMap)
-{
-
-}
---@ EndMethod
-
 --@ BeginEntityEventHandler
 --@ Scope=All
 --@ Target=service:InputService
@@ -132,3 +122,4 @@ end
 
 }
 --@ EndEntityEventHandler
+
