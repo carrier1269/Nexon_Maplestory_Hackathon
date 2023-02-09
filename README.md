@@ -6,7 +6,7 @@
 
 ### [메이플스토리 API 개발전용 사이트](https://maplestoryworlds-developers.nexon.com/ko)
 
-<img src="https://user-images.githubusercontent.com/58325946/209903131-91d47019-8991-4c5d-9d02-440d7f6565a4.png" width="412" height="900"> <img src="https://user-images.githubusercontent.com/58325946/209903143-d63015ce-5da5-47e2-b033-c4a1d9af4ac8.png" width="412" height="900">
+<img src="https://user-images.githubusercontent.com/58325946/209903131-91d47019-8991-4c5d-9d02-440d7f6565a4.png" width="412" height="750"> <img src="https://user-images.githubusercontent.com/58325946/209903143-d63015ce-5da5-47e2-b033-c4a1d9af4ac8.png" width="412" height="750">
 
 
 <img src="https://user-images.githubusercontent.com/58325946/216481188-e8f4422e-fd9d-4c40-bf92-03fe920c8b75.png" width="412" height="412"> <img src="https://user-images.githubusercontent.com/58325946/216483188-fd8e32ae-5eb7-4936-a5c6-6a0a19a3881d.png" width="412" height="412">
